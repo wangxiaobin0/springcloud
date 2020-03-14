@@ -1,0 +1,26 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: cloud-stream-consumer
+  rabbitmq:
+    host: 112.126.59.115
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: myStreamProvider #必须和生产者一致才能接收到消息
+          content-type: application/json #设置消息类型, 文本设置text/plain
+          group: streamConsumerGroup001
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka

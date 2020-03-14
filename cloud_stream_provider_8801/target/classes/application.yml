@@ -1,0 +1,26 @@
+server:
+  port: 8801
+
+spring:
+  application:
+    name: cloud-stream-provider
+  rabbitmq:
+    host: 112.126.59.115
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings: #服务整合处理
+        output: #通道名绑定名称, 可自定义
+          destination: myStreamProvider #表示output通道绑定到名为myStreamProvider的交换器上
+          content-type: application/json #设置消息类型, 文本设置text/plain
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka

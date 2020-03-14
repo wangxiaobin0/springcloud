@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/alibaba_provider_payment_9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alibaba_provider_payment_9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_client_3345/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_client_3345/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_client_3346/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_config_client_3346/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_consul_order_80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_consul_order_80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_hystrix_order_80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_hystrix_order_80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_openfeign_order_80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_openfeign_order_80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_order_80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_order_80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_zk_order_80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_consumer_zk_order_80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_eureka_server_7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_eureka_server_7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_eureka_server_7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_eureka_server_7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_gateway_9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_gateway_9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_hystrix_dashboard_9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_hystrix_dashboard_9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8005/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8005/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8006/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_hystrix_8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_hystrix_8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_hystrix_8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_provider_payment_hystrix_8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_consumer_8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_consumer_8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_consumer_8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_consumer_8803/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_provider_8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_stream_provider_8801/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

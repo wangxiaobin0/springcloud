@@ -1,0 +1,52 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: payment-route
+          uri: lb://cloud-payment-hystrix-service
+          predicates:
+            - Path=/provider/**
+        - id: order-route
+          uri: lb://cloud-order-hystrix-service
+          predicates:
+            - Path=/order/**
+  zipkin:
+    base-url: http:112.126.59.115
+  sleuth:
+    sampler:
+      probability: 1
+#            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+#            - Before=2017-01-20T17:42:47.789-07:00[America/Denver]
+#            - Between=2017-01-20T17:42:47.789-07:00[America/Denver], 2017-01-21T17:42:47.789-07:00[America/Denver]
+#            - Cookie=chocolate, ch.p
+#            - Header=X-Request-Id, \d+
+#            - Host=**.somehost.org
+#            - Method=GET
+#            - Query=baz
+#            - RemoteAddr=192.168.1.1/24
+#          filters:
+#            - AddRequestHeader=X-Request-Foo, Bar
+#            - AddRequestParameter=foo, bar
+#            - AddResponseHeader=X-Response-Foo, Bar
+#            - Hystrix=myCommandName
+
+#        - id: payment-route1  #路由id, 没有固定规则,但必须唯一
+#          uri: http://localhost:8001  #匹配后提供服务的路由地址
+#          predicates: #断言
+#            - Path=/provider/hystrix/ok/**  #路径匹配
+#        - id: payment-route2
+#          uri: http://localhost:8001
+#          predicates:
+#            - Path=/provider/hystrix/timeout/**
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+

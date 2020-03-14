@@ -1,0 +1,33 @@
+server:
+  port: 3346
+
+spring:
+  #服务名
+  application:
+    name: cloud-config-client
+  cloud:
+    #配置中心配置
+    config:
+      uri: http://127.0.0.1:3344
+      label: master
+      name: application
+      profile: dev
+  # MQ配置
+  rabbitmq:
+    host: 112.126.59.115
+    port: 5672
+    username: guest
+    password: guest
+#暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#eureka配置
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

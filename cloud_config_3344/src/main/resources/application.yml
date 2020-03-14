@@ -1,0 +1,43 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          #git uri
+          uri: https://gitee.com/gitteejava/config.git
+          #用户名
+          username: 1378975974@qq.com
+          #密码
+          password: 1378975974@Wxb
+          #扫描路径
+          search-paths: /**
+          #跳过ssl校验
+          skip-ssl-validation: true
+      #分支. 默认master
+      label: master
+  #MQ配置
+  rabbitmq:
+    host: 112.126.59.115
+    port: 5672
+    username: guest
+    password: guest
+#暴露总线刷新的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

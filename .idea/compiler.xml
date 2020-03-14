@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_hystrix_dashboard_9001" />
+        <module name="cloud_provider_payment_8006" />
+        <module name="cloud_provider_payment_8005" />
+        <module name="cloud_provider_payment_8004" />
+        <module name="cloud_provider_payment_8003" />
+        <module name="cloud_provider_payment_8002" />
+        <module name="cloud_provider_payment_8001" />
+        <module name="alibaba_provider_payment_9001" />
+        <module name="cloud_provider_payment_hystrix_8002" />
+        <module name="cloud_provider_payment_hystrix_8001" />
+        <module name="cloud_consumer_consul_order_80" />
+        <module name="cloud_config_client_3346" />
+        <module name="cloud_config_client_3345" />
+        <module name="cloud_consumer_order" />
+        <module name="cloud_consumer_hystrix_order_80" />
+        <module name="cloud_consumer_zk_order_80" />
+        <module name="cloud_gateway_9527" />
+        <module name="cloud_consumer_openfeign_order_80" />
+        <module name="cloud_stream_consumer_8803" />
+        <module name="cloud_consumer_order_80" />
+        <module name="cloud_stream_consumer_8802" />
+        <module name="cloud_config_3344" />
+        <module name="cloud_stream_provider_8801" />
+        <module name="cloud_eureka_server_7002" />
+        <module name="cloud_eureka_server_7001" />
+        <module name="cloud-common-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba_provider_payment_9001" target="1.8" />
+      <module name="cloud_consumer_order" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
